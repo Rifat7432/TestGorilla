@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="mb-24">
       <div
         className={`relative navbar bg-base-300 justify-between md:justify-around ${
           isMD ? "block md:flex" : "flex"
@@ -31,7 +31,7 @@ const Navbar = () => {
           }`}
         >
           <NavLink
-            to="topics"
+            to="/"
             className={({ isActive }) =>
               isActive ? "text-cyan-500" : undefined
             }

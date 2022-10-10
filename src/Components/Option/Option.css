@@ -1,0 +1,14 @@
+.correct{
+    background-color: #0eea0e;
+    color: aliceblue;
+}
+.in-correct{
+    background-color: red;
+    color: aliceblue;
+}
+.eye-button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
