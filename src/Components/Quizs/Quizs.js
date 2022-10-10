@@ -13,10 +13,6 @@ const Quizs = () => {
         <div className=' bg-slate-700 text-slate-400 '>
             <div>
                 <h3 className='text-5xl font-bold'>Interview of {name}</h3>
-                <div>
-                    <h3>Correct answer:{countCorrect}</h3>
-                    <h3>Incorrect answer:{countIncorrect}</h3>
-                </div>
             </div>
             <div>
                 {
