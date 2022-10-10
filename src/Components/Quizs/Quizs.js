@@ -10,7 +10,7 @@ const Quizs = () => {
     const [countCorrect,steCountCorrect] = useState(0)
     const [countIncorrect,steCountIncorrect] = useState(0)
     return (
-        <div className=' bg-slate-700 text-slate-400 '>
+        <div >
             <div>
                 <h3 className='text-5xl font-bold'>Interview of {name}</h3>
             </div>

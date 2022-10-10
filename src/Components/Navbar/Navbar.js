@@ -32,9 +32,6 @@ const Navbar = () => {
         >
           <NavLink
             to="/"
-            className={({ isActive }) =>
-              isActive ? "text-cyan-500" : undefined
-            }
           >
             <span className="text-xl">Topics</span>
           </NavLink>

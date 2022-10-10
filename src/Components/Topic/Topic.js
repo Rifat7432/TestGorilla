@@ -13,7 +13,7 @@ const Topic = ({ topic }) => {
   }
   return (
     <div>
-      <div className="card glass bg-slate-700 text-slate-400  border-2 display hover:shadow-xl  ">
+      <div className="card  bg-slate-700 text-slate-400  border-2 display hover:shadow-xl  ">
         <figure>
           <img src={logo} alt="logo" />
         </figure>
