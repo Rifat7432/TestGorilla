@@ -22,7 +22,9 @@ const Navbar = () => {
         <div className={` ${isMD ? "block md:inline-flex" : undefined}`}>
           <Link to="/" className=" normal-case text-xl">
             <img className="h-24 w-24 inline-block" src={logo} alt="" />
-            <span className="text-4xl">Test<span className="font-bold">Gorilla</span></span>
+            <span className="text-4xl">
+              Test<span className="font-bold">Gorilla</span>
+            </span>
           </Link>
         </div>
         <div
