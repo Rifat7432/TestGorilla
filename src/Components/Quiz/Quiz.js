@@ -13,14 +13,14 @@ const Quiz = ({OneQuestion,Correct,Incorrect}) => {
         setIsCorrectAnswer(!isCorrectAnswer)
     } 
         return (
-        <div className='w-3/5 relative mx-auto bg-slate-100 border-current my-16 p-8 hover:shadow-lg border-2 rounded-2xl '>
+        <div className='sm:w-3/5 w-11/12 relative mx-auto bg-slate-100 border-current my-16 sm:p-8 p-2 hover:shadow-lg border-2 rounded-2xl '>
             <button
               className="eye-button xl:pr-5 pr-9 h-3 "
               onClick={showCorrectAnswer}
             >
               <FontAwesomeIcon icon={isCorrectAnswer ? faEyeSlash : faEye} />
             </button>
-            <div className='text-2xl font-semibold '>
+            <div className='sm:text-2xl text-xl font-semibold '>
 
                 <p className='mt-5'>{question}</p>
             </div>
