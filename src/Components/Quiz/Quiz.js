@@ -24,7 +24,7 @@ const Quiz = ({OneQuestion,Correct,Incorrect}) => {
 
                 <p className='mt-5'>{question}</p>
             </div>
-            <div className='grid grid-cols-1 gap-5 my-10'>
+            <div className=' btn-group grid grid-cols-1 gap-5 my-10'>
                {
                 options.map((option,idX) => <Option correctAnswer={correctAnswer} option={option} Correct={Correct} key={idX} Incorrect={Incorrect} setIsCorrectAnswer={setIsCorrectAnswer}></Option>)
                }

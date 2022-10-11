@@ -22,7 +22,7 @@ const Topic = ({ topic }) => {
           <p className="card-title  hidden start">Total questions : {total}</p>
           <div className="card-actions justify-end">
             <button onClick={()=>startQuiz(id)} className="btn btn-primary hidden start">Start interview
-            <span> <FontAwesomeIcon icon={faArrowRight}/></span>
+            <span className="mx-5"> <FontAwesomeIcon icon={faArrowRight}/></span>
             </button>
           </div>
         </div>

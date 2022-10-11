@@ -10,11 +10,18 @@ import Blog from './Components/Blog/Blog';
 function App() {
   const router = createBrowserRouter([
     {
-      path :'',
+      path :'/',
       element :<Main></Main>,
       children :[
         {
           path:'/',
+          loader : async() =>{
+             return fetch('https://openapi.programming-hero.com/api/quiz')
+          },
+          element:<Topics></Topics>
+        },
+        {
+          path:'topics',
           loader : async() =>{
              return fetch('https://openapi.programming-hero.com/api/quiz')
           },
