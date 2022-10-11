@@ -6,7 +6,6 @@ import Topic from "../Topic/Topic";
 const Topics = () => {
   const topics = useLoaderData();
   const { data } = topics;
-  console.log(data);
   return (
     <div>
       <div className="top-banner rounded-xl w-11/12 mx-auto my-10 py-40">

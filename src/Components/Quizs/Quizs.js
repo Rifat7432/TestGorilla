@@ -6,7 +6,6 @@ import Quiz from "../Quiz/Quiz";
 
 const Quizs = () => {
   const quizes = useLoaderData();
-  console.log(quizes);
   const { data, status } = quizes;
   const { name, questions } = data;
   const [countCorrect, steCountCorrect] = useState(0);
